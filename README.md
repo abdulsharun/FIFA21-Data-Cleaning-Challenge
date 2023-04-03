@@ -25,10 +25,12 @@ To load the dataset with MS Power Query, I used UTF-8 encoding to get rid of the
   ![alt text](https://github.com/abdulsharun/FIFA21-Data-Cleaning-Challenge/blob/main/fifa-us-ascii-encoding.png) | ![alt text](https://github.com/abdulsharun/FIFA21-Data-Cleaning-Challenge/blob/main/fifa-unicode-encoding.png)
   
 ## Data Transformation
-After loading the data, I realized that there is need to clean (remove=ing all controls characters like tabs, end of lines) and trim (removing trailing and leading white spaces) from the dataset.
+After loading the data, I realized that there is a need to clean (removing all controls characters like tabs, end of lines) and trim (removing all trailing and leading white spaces) from the dataset.
    |Before Clean and Trim | After Clean and Trim           |                                 
 ---------------------------:|:-----------------------------------
 ![alt text](https://github.com/abdulsharun/FIFA21-Data-Cleaning-Challenge/blob/main/before-clean-and-trim.png) | ![alt text](https://github.com/abdulsharun/FIFA21-Data-Cleaning-Challenge/blob/main/after-clean-and-trim.png)
+
+Then I checked for duplicates and found that the dataset has no duplicate values. I then removed all unwanted columns like **photo_url** which contains url to the photo of each player, **name** column because there is another column that contains the full name of the player.
 
 Because each column has its perculiar problem, I used different techniques to clean each columns.
 Here are the steps I followed to clean the data.
