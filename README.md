@@ -1,4 +1,4 @@
-# FIFA21-Data-Cleaning-Challenge
+# FIFA21 Data Cleaning Challenge
 
 ![alt text](https://github.com/abdulsharun/FIFA21-Data-Cleaning-Challenge/blob/main/FIFA21-LOGO-1080x609.jpg)
 
