@@ -21,6 +21,7 @@ To load the dataset with MS Power Query, I used UTF-8 encoding to get rid of the
 ### Special Characters
    |Special character Before  | Special character After                           |                                 
   ---------------------------:|:-----------------------------------
+  
 Because each column has its perculiar problem, I used different techniques to clean each columns.
 Here are the steps I followed to clean the data by columns.
 
