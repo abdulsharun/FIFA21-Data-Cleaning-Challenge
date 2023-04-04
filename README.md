@@ -52,5 +52,15 @@ The **POT** column represents players potential in percentage. I renamed the col
 ---------------------------:|:-----------------------------------
 ![age-ova-pot-before](https://user-images.githubusercontent.com/119185772/229858729-ed8bd357-7a58-4ca3-b43e-1af59340a260.png) | ![age-ova-pot-after](https://user-images.githubusercontent.com/119185772/229858934-04ecc4f0-5430-49c7-8c9d-7b1f383fe25b.png)
 
+**Contract Column**
+The **Contract** column contains inconsistent data as shown below:
+![contract-before](https://user-images.githubusercontent.com/119185772/229860330-9e16b27c-0a35-4e4c-965b-d64d52002428.png)
 
+I cleaned the column by using the following steps:
+1. I created an **Agreement** column which will represent whether a player is on **Contract**, **On Loan** or **Free**. ![agreement-before](https://user-images.githubusercontent.com/119185772/229860962-9006d7c9-9728-4bc0-ba30-b7e2d05a6bf5.png)
+2. I splitted the **Contract** column on **~** delimeter and renamed the two columns to **ContractStarts** and **ContractEnds**.
+3. I replaced the empty cells in both columns with **null** to avoid errors. 
+   |Splitting Contract Contract | Replacing empty cells with null     |                                 
+---------------------------:|:-----------------------------------
+![contract-split](https://user-images.githubusercontent.com/119185772/229862366-66dd72a3-1bb4-483f-af50-9333100dad61.png) | ![contract-replace-nulls-rename-columns](https://user-images.githubusercontent.com/119185772/229862425-699a49b0-f876-4ab0-85df-fefa5f499e33.png)
 
