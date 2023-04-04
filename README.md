@@ -58,7 +58,9 @@ The **Contract** column contains inconsistent data as shown below:
 
 I cleaned the column by using the following steps:
 1. I created an **Agreement** column which will represent whether a player is on **Contract**, **On Loan** or **Free**. 
+
 ![agreement-before](https://user-images.githubusercontent.com/119185772/229860962-9006d7c9-9728-4bc0-ba30-b7e2d05a6bf5.png)
+
 2. I splitted the **Contract** column on **~** delimeter and renamed the two columns to **ContractStarts** and **ContractEnds**.
 3. I replaced the empty cells in both columns with **null** to avoid errors. 
 
