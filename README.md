@@ -34,3 +34,10 @@ Then I checked for duplicates and found that the dataset has no duplicate values
 
 Because each column has its perculiar problem, I used different techniques to clean each columns.
 Here are the steps I followed to clean the data.
+
+## ID, Name and LongName
+I changed ID column data type to text because there is no need to aggregate the column (it is the unique identifier of each player). I deleted the **Name** column because the **LongName** column contains similar and more comprehensive information. I then renamed the **LongName** column to **PlayerName**.
+
+   |ID, Name & LongName Before | ID, Name & LongName After         |                                 
+---------------------------:|:-----------------------------------
+![alt text](https://github.com/abdulsharun/FIFA21-Data-Cleaning-Challenge/blob/main/id-name-longname-before.png) | ![alt_text](https://github.com/abdulsharun/FIFA21-Data-Cleaning-Challenge/blob/main/id-name-longname-after.png)
