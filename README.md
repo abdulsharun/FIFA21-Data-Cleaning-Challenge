@@ -47,6 +47,10 @@ The **Age** column represents the age of the player in text format, thus aggrega
 
 The **OVA** column represents players overall analysis or rate in percentage. I renamed the column to **OverallAnalysis** for easy understanding, divide the column by **100**, and changed the data type to percentage. This accurately captured each player's overall analysis in percentage.
 
-The **POT** column represents players potential in percentage. I renamed the column to **PotentialPotential** for easy readability, divide the column by **100** and changed the data type to percentage.
+The **POT** column represents players potential in percentage. I renamed the column to **PlayerPotential** for easy readability, divide the column by **100** and changed the data type to percentage.
+   |Age, OVA & POT Before | Age, OVA & POT After         |                                 
+---------------------------:|:-----------------------------------
+![age-ova-pot-before](https://user-images.githubusercontent.com/119185772/229858729-ed8bd357-7a58-4ca3-b43e-1af59340a260.png) | ![age-ova-pot-after](https://user-images.githubusercontent.com/119185772/229858934-04ecc4f0-5430-49c7-8c9d-7b1f383fe25b.png)
+
 
 
