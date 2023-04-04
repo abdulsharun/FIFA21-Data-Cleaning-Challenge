@@ -52,7 +52,8 @@ The **POT** column represents players potential in percentage. I renamed the col
 ---------------------------:|:-----------------------------------
 ![age-ova-pot-before](https://user-images.githubusercontent.com/119185772/229858729-ed8bd357-7a58-4ca3-b43e-1af59340a260.png) | ![age-ova-pot-after](https://user-images.githubusercontent.com/119185772/229858934-04ecc4f0-5430-49c7-8c9d-7b1f383fe25b.png)
 
-**Contract Column**
+## Contract Column
+
 The **Contract** column contains inconsistent data as shown below:
 ![contract-before](https://user-images.githubusercontent.com/119185772/229860330-9e16b27c-0a35-4e4c-965b-d64d52002428.png)
 
