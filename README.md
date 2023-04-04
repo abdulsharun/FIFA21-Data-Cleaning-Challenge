@@ -69,7 +69,7 @@ I cleaned the column by using the following steps:
 ---------------------------:|:-----------------------------------
 ![contract-split](https://user-images.githubusercontent.com/119185772/229862366-66dd72a3-1bb4-483f-af50-9333100dad61.png) | ![contract-replace-nulls-rename-columns](https://user-images.githubusercontent.com/119185772/229862425-699a49b0-f876-4ab0-85df-fefa5f499e33.png)
 
-4. Lastly, I subtracted **ContractStarts** from **ContractEnds** to get **ContractDuration(Years)**; a new column that shows numbers of years a player spent in a team. And the cleaned columns are shown below.
+4. Lastly, I subtracted **ContractStarts** from **ContractEnds** to get **ContractDuration(Years)**; a new column that shows numbers of years a *contracted* player spent in a team. And the cleaned columns are shown below.
 
 ![contract-agreement-final](https://user-images.githubusercontent.com/119185772/229865191-dca2709b-4414-47f9-b250-bfda8fdbf6b6.png)
 
