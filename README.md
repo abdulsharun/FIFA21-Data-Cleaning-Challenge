@@ -41,3 +41,12 @@ I changed ID column data type to text because there is no need to aggregate the 
    |ID, Name & LongName Before | ID, Name & LongName After         |                                 
 ---------------------------:|:-----------------------------------
 ![alt text](https://github.com/abdulsharun/FIFA21-Data-Cleaning-Challenge/blob/main/id-name-longname-before.png) | ![alt_text](https://github.com/abdulsharun/FIFA21-Data-Cleaning-Challenge/blob/main/id-name-longname-after.png)
+
+## Age, OVA & POT
+The **Age** column represents the age of the player in text format, thus aggregation can't be done. Thus, I changed the data type to numeric so that aggregation can be done on it. 
+
+The **OVA** column represents players overall analysis or rate in percentage. I renamed the column to **OverallAnalysis** for easy understanding, divide the column by **100**, and changed the data type to percentage. This accurately captured each player's overall analysis in percentage.
+
+The **POT** column represents players potential in percentage. I renamed the column to **PotentialPotential** for easy readability, divide the column by **100** and changed the data type to percentage.
+
+
