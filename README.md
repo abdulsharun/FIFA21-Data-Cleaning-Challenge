@@ -73,3 +73,4 @@ I cleaned the column by using the following steps:
 
 ![contract-agreement-final](https://user-images.githubusercontent.com/119185772/229865191-dca2709b-4414-47f9-b250-bfda8fdbf6b6.png)
 
+## Weight & Height
