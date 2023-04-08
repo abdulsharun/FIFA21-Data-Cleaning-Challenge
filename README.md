@@ -107,10 +107,23 @@ The **Height** column contains data in two formats (170cm and 5'7") which makes 
 ![weight-height-before](https://user-images.githubusercontent.com/119185772/230707696-51c01c53-0b4d-4473-9b0c-d067a379e963.png) | ![weight-height-after](https://user-images.githubusercontent.com/119185772/230707706-2849b5ff-cda3-47ad-8e3d-986591efcce2.png)
 
 ## Loan Date End
-This column was observed to have some empty cells. But after cross-checking the data, I realised that the the empty corresponds to players that are not on loan in the currrent clubs. So, I replaced alll empty cells with **Not on loan**.
+This column was observed to have some empty cells. But after cross-checking the data, I realised that the the empty corresponds to players that are not on loan in the currrent clubs. So, I replaced all empty cells with **Not on loan**.
 
 |Loan Date End Before | Loan Date End After    |                                 
 ---------------------------:|:-----------------------------------
 ![loan-date-before](https://user-images.githubusercontent.com/119185772/230708397-7b7090d0-d7ed-43e6-9004-33b02844ac87.png) | ![loan-date-after](https://user-images.githubusercontent.com/119185772/230708412-f7215046-f627-42ad-9015-128a55a7d810.png)
 
+## Value, Wage & Relause Clause
+These columns have numerical data in the format that cannot be used for aggregation like €138.4M and €138.4K. Thus I cleaned the columns by:
+1. Splitting the columns to remove the € symbol.
+2. Creating multiplier columns to take care of the **M**'s and **K**'s.
+![multiplier-vwrc](https://user-images.githubusercontent.com/119185772/230709331-601e602d-f80c-494a-9ec2-4d9da48810ac.png)
+
+3. Removing the **M**'s and **K**'s and converting the columns to numeric.
+4. Multiplying the columns by their individual multiplier columns to get a consistent result.
+5. Converting the columns to currency.
+
+| Value, Wage & Relause Clause Before | Value, Wage & Relause Clause After    |                                 
+---------------------------:|:-----------------------------------
+![value-wage-rc-before](https://user-images.githubusercontent.com/119185772/230709357-fa7cfb2b-4172-4adc-81ea-e6d38dfe4336.png) | ![value-wage-rc-after](https://user-images.githubusercontent.com/119185772/230709368-3d0c9101-d33d-40aa-8e20-626142c11271.png)
 
