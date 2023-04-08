@@ -22,14 +22,13 @@ To load the dataset with MS Power Query, I used UTF-8 encoding to get rid of the
 
    |Special character Before  | Special character After            |                                 
   ---------------------------:|:-----------------------------------
-  ![other-columns-after](https://user-images.githubusercontent.com/119185772/230711106-47711f7d-4776-40c4-b1d0-3e9974d6d4c4.png) | ![other-columns-after](https://user-images.githubusercontent.com/119185772/230711113-38b891de-8564-450f-a918-d42557f32133.png)
-
+![fifa-us-ascii-encoding](https://user-images.githubusercontent.com/119185772/230711222-484e80ea-f412-435d-bb85-69dd165279a2.png) | ![fifa-us-ascii-encoding](https://user-images.githubusercontent.com/119185772/230711231-d9e8f535-c627-451a-bd9e-0f6d921c723e.png)
 
 ## Data Transformation
 After loading the data, I realized that there is a need to clean (removing all controls characters like tabs, end of lines) and trim (removing all trailing and leading white spaces) from the dataset.
    |Before Clean and Trim | After Clean and Trim           |                                 
 ---------------------------:|:-----------------------------------
-![other-columns-after](https://user-images.githubusercontent.com/119185772/230711138-cb602050-b611-4d7d-8c2b-dbc82e6bf24a.png) | ![other-columns-after](https://user-images.githubusercontent.com/119185772/230711157-57080625-cc91-419d-ad29-288f78a85cf3.png)
+![before-clean-and-trim](https://user-images.githubusercontent.com/119185772/230711273-cd0e07a0-7164-4030-9283-e00c332cce27.png) | ![after-clean-and-trim](https://user-images.githubusercontent.com/119185772/230711279-bc616a46-6181-4bf7-bbe1-dce1a30913fb.png)
 
 Then I checked for duplicates and found that the dataset has no duplicate values. I then removed all unwanted columns like **photo_url** which contains url to the photo of each player, **name** column because there is another column that contains the full name of the player.
 
@@ -41,7 +40,8 @@ I changed ID column data type to text because there is no need to aggregate the 
 
    |ID, Name & LongName Before | ID, Name & LongName After         |                                 
 ---------------------------:|:-----------------------------------
-![alt text](https://github.com/abdulsharun/FIFA21-Data-Cleaning-Challenge/blob/main/id-name-longname-before.png) | ![alt_text](https://github.com/abdulsharun/FIFA21-Data-Cleaning-Challenge/blob/main/id-name-longname-after.png)
+![id-name-longname-before](https://user-images.githubusercontent.com/119185772/230711308-d36da9db-a2ca-45e2-93e9-28e92f28b4a7.png)
+ | ![id-name-longname-after](https://user-images.githubusercontent.com/119185772/230711326-6637f621-e862-4f11-bf79-f5403604d805.png)
 
 ## Age, OVA & POT
 The **Age** column represents the age of the player in text format, thus aggregation can't be done. Thus, I changed the data type to numeric so that aggregation can be done on it. 
