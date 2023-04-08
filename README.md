@@ -134,3 +134,13 @@ These columns are named **W/F**, **SM** & **IR** in the dataset which represent 
 ---------------------------:|:-----------------------------------
 ![wr-sm-ir-before](https://user-images.githubusercontent.com/119185772/230710327-8f6a0603-ab3e-4ded-bb3b-981c7dcd8eb3.png) | ![wr-sm-ir-after](https://user-images.githubusercontent.com/119185772/230710235-2a90298e-dd2f-4650-a86f-452fcd541c91.png)
 
+## Other columns
+Apart from the columns explained above, there are other columns in the dataset. Most of these columns only have the wrong dataype, so I changed the datatypes to the appropriate ones.
+
+| Other Columns Before | Other Columns After    |  
+---------------------------:|:-----------------------------------
+
+## Conclusion
+In this project, I was able to use Power Query to clean FIFA21 data that contains inconsistent information, wrong data types, missing values and columns. The data is now cleaned and ready for analysis. It is fair to say that I have learnt some concepts of data cleaning by joing this challange. I look forward to analysing this data and doing more projects to solidify what I have learnt. 
+
+Thank you for reading and I anticipate your feedback and recommendations on how to make this project better.
