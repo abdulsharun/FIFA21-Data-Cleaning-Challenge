@@ -57,7 +57,7 @@ The **Contract** column contains inconsistent data as shown below:
 
 ![contract-before](https://user-images.githubusercontent.com/119185772/230711484-1d4461e0-8248-46c6-8e7c-3a6790a807cd.png)
 
-I cleaned the column by using the following steps:
+I cleaned the column following the steps:
 1. I created an **Agreement** column which will represent whether a player is on **Contract**, **On Loan** or **Free**. 
 
 ![agreement-before](https://user-images.githubusercontent.com/119185772/229860962-9006d7c9-9728-4bc0-ba30-b7e2d05a6bf5.png)
@@ -107,7 +107,7 @@ The **Height** column contains data in two formats (170cm and 5'7") which makes 
 ![weight-height-before](https://user-images.githubusercontent.com/119185772/230707696-51c01c53-0b4d-4473-9b0c-d067a379e963.png) | ![weight-height-after](https://user-images.githubusercontent.com/119185772/230707706-2849b5ff-cda3-47ad-8e3d-986591efcce2.png)
 
 ## Loan Date End
-This column was observed to have some empty cells. But after cross-checking the data, I realised that the the empty corresponds to players that are not on loan in the currrent clubs. So, I replaced all empty cells with **Not on loan**.
+This column was observed to have some empty cells. But after cross-checking the data, I realised that the the blank cells corresponds to players that are not on loan in the currrent clubs. So, I replaced all empty cells with **Not on loan**.
 
 |Loan Date End Before | Loan Date End After    |                                 
 ---------------------------:|:-----------------------------------
