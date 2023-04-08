@@ -40,8 +40,7 @@ I changed ID column data type to text because there is no need to aggregate the 
 
    |ID, Name & LongName Before | ID, Name & LongName After         |                                 
 ---------------------------:|:-----------------------------------
-![id-name-longname-before](https://user-images.githubusercontent.com/119185772/230711308-d36da9db-a2ca-45e2-93e9-28e92f28b4a7.png)
- | ![id-name-longname-after](https://user-images.githubusercontent.com/119185772/230711326-6637f621-e862-4f11-bf79-f5403604d805.png)
+![id-name-longname-before](https://user-images.githubusercontent.com/119185772/230711308-d36da9db-a2ca-45e2-93e9-28e92f28b4a7.png) | ![id-name-longname-after](https://user-images.githubusercontent.com/119185772/230711326-6637f621-e862-4f11-bf79-f5403604d805.png)
 
 ## Age, OVA & POT
 The **Age** column represents the age of the player in text format, thus aggregation can't be done. Thus, I changed the data type to numeric so that aggregation can be done on it. 
@@ -56,7 +55,7 @@ The **POT** column represents players potential in percentage. I renamed the col
 ## Contract Column
 The **Contract** column contains inconsistent data as shown below:
 
-![contract-before](https://user-images.githubusercontent.com/119185772/229860330-9e16b27c-0a35-4e4c-965b-d64d52002428.png)
+![contract-before](https://user-images.githubusercontent.com/119185772/230711484-1d4461e0-8248-46c6-8e7c-3a6790a807cd.png)
 
 I cleaned the column by using the following steps:
 1. I created an **Agreement** column which will represent whether a player is on **Contract**, **On Loan** or **Free**. 
