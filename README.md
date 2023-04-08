@@ -4,7 +4,7 @@
 
 ## Introduction
 
-In March 2023, I participated in a challenge to clean FIFA21 messy data into usable format ready for analysis. The data contains information about players like name, position, team, country, etc. The data contains has 18,789 rows and 77 columns with special characters, irrelevant data and discrepancies. 
+In March 2023, I participated in a challenge to clean FIFA21 messy data into usable format ready for analysis. The data contains information about players like name, position, team, country, etc. The data has 18,789 rows and 77 columns with special characters, irrelevant data and discrepancies. 
 
 I used Microsoft Power Query to perform the following tasks of cleaning and wrangling data:
 
@@ -81,5 +81,5 @@ The **Weight** column contains data in two units (kg & lbs). In order to make th
 4. I renamed the column to **Weight(Kg)**.
 
 |Cleaning the weight column|                                 
----------------------------:|:-----------------------------------
-![weight-cleaning](https://user-images.githubusercontent.com/119185772/230706108-adcf2c35-1746-446a-bd48-efc50b6c8d1b.png)
+|---------------------------:|
+|![weight-cleaning](https://user-images.githubusercontent.com/119185772/230706108-adcf2c35-1746-446a-bd48-efc50b6c8d1b.png)|
