@@ -22,13 +22,14 @@ To load the dataset with MS Power Query, I used UTF-8 encoding to get rid of the
 
    |Special character Before  | Special character After            |                                 
   ---------------------------:|:-----------------------------------
-  ![alt text](https://github.com/abdulsharun/FIFA21-Data-Cleaning-Challenge/blob/main/fifa-us-ascii-encoding.png) | ![alt text](https://github.com/abdulsharun/FIFA21-Data-Cleaning-Challenge/blob/main/fifa-unicode-encoding.png)
-  
+  ![other-columns-after](https://user-images.githubusercontent.com/119185772/230711106-47711f7d-4776-40c4-b1d0-3e9974d6d4c4.png) | ![other-columns-after](https://user-images.githubusercontent.com/119185772/230711113-38b891de-8564-450f-a918-d42557f32133.png)
+
+
 ## Data Transformation
 After loading the data, I realized that there is a need to clean (removing all controls characters like tabs, end of lines) and trim (removing all trailing and leading white spaces) from the dataset.
    |Before Clean and Trim | After Clean and Trim           |                                 
 ---------------------------:|:-----------------------------------
-![alt text](https://github.com/abdulsharun/FIFA21-Data-Cleaning-Challenge/blob/main/before-clean-and-trim.png) | ![alt text](https://github.com/abdulsharun/FIFA21-Data-Cleaning-Challenge/blob/main/after-clean-and-trim.png)
+![other-columns-after](https://user-images.githubusercontent.com/119185772/230711138-cb602050-b611-4d7d-8c2b-dbc82e6bf24a.png) | ![other-columns-after](https://user-images.githubusercontent.com/119185772/230711157-57080625-cc91-419d-ad29-288f78a85cf3.png)
 
 Then I checked for duplicates and found that the dataset has no duplicate values. I then removed all unwanted columns like **photo_url** which contains url to the photo of each player, **name** column because there is another column that contains the full name of the player.
 
@@ -142,6 +143,6 @@ Apart from the columns explained above, there are other columns in the dataset. 
 ![other-columns-before](https://user-images.githubusercontent.com/119185772/230710983-82e0ced9-b69e-4f36-bef7-d498c99086f9.png) | ![other-columns-after](https://user-images.githubusercontent.com/119185772/230711004-02355453-712f-43aa-9fb1-f75b72024501.png)
 
 ## Conclusion
-In this project, I was able to use Power Query to clean FIFA21 data that contains inconsistent information, wrong data types, missing values and columns. The data is now cleaned and ready for analysis. It is fair to say that I have learnt some concepts of data cleaning by joing this challange. I look forward to analysing this data and doing more projects to solidify what I have learnt. 
+In this project, I was able to use Power Query to clean FIFA21 data that contains inconsistent information, wrong data types, missing values and columns. The data is now cleaned and ready for analysis. It is fair to say that I have learnt some concepts of data cleaning by joing this challenge. I look forward to analysing this data and doing more projects to solidify what I have learnt. 
 
 Thank you for reading and I anticipate your feedback and recommendations on how to make this project better.
