@@ -132,6 +132,5 @@ These columns are named **W/F**, **SM** & **IR** in the dataset which represent 
 
 | Weak Foot, Skill Moves & Injury Ratings Before | Weak Foot, Skill Moves & Injury Ratings After    |                                 
 ---------------------------:|:-----------------------------------
-![wr-sm-ir-before](https://user-images.githubusercontent.com/119185772/230710327-8f6a0603-ab3e-4ded-bb3b-981c7dcd8eb3.png)
-| ![wr-sm-ir-after](https://user-images.githubusercontent.com/119185772/230710235-2a90298e-dd2f-4650-a86f-452fcd541c91.png)
+![wr-sm-ir-before](https://user-images.githubusercontent.com/119185772/230710327-8f6a0603-ab3e-4ded-bb3b-981c7dcd8eb3.png) | ![wr-sm-ir-after](https://user-images.githubusercontent.com/119185772/230710235-2a90298e-dd2f-4650-a86f-452fcd541c91.png)
 
