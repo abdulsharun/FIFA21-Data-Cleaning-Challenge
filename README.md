@@ -115,7 +115,7 @@ This column was observed to have some empty cells. But after cross-checking the 
 
 ## Value, Wage & Relause Clause
 These columns have numerical data in the format that cannot be used for aggregation like €138.4M and €138.4K. Thus I cleaned the columns by:
-1. Splitting the columns to remove the € symbol.
+1. Splitting the columns to remove the € symbol and renaming the columns appropriately.
 2. Creating multiplier columns to take care of the **M**'s and **K**'s.
 ![multiplier-vwrc](https://user-images.githubusercontent.com/119185772/230709331-601e602d-f80c-494a-9ec2-4d9da48810ac.png)
 
