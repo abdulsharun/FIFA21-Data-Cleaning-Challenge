@@ -74,3 +74,12 @@ I cleaned the column by using the following steps:
 ![contract-agreement-final](https://user-images.githubusercontent.com/119185772/229865191-dca2709b-4414-47f9-b250-bfda8fdbf6b6.png)
 
 ## Weight & Height
+The **Weight** column contains data in two units (kg & lbs). In order to make the column consistent, I converted all weights to **kg** using the following steps:
+1. I splitted the weight column by ***Digit to Non-Digit*** to get the numbers and units in different columns; **Weight.1** and **Weight.2** respectively.
+2. I created a multiplier column that has **0.454** if the **Weight.2** is **lbs** and **1** if it is **kg**.
+3. I multiplied the initial column by the multiplier column to get the weight in kg.
+4. I renamed the column to **Weight(Kg)**.
+
+|Cleaning the weight column|                                 
+---------------------------:|:-----------------------------------
+![weight-cleaning](https://user-images.githubusercontent.com/119185772/230706108-adcf2c35-1746-446a-bd48-efc50b6c8d1b.png)
