@@ -127,3 +127,10 @@ These columns have numerical data in the format that cannot be used for aggregat
 ---------------------------:|:-----------------------------------
 ![value-wage-rc-before](https://user-images.githubusercontent.com/119185772/230709357-fa7cfb2b-4172-4adc-81ea-e6d38dfe4336.png) | ![value-wage-rc-after](https://user-images.githubusercontent.com/119185772/230709368-3d0c9101-d33d-40aa-8e20-626142c11271.png)
 
+## Weak Foot, Skill Moves & Injury Ratings
+These columns are named **W/F**, **SM** & **IR** in the dataset which represent Weak Foot Rating, Skill Moves Rating & Injury Rating. They contained the symbol ★. Thus I removed the symbol and renamed the columns for easy readability and understanding.
+
+| Weak Foot, Skill Moves & Injury Ratings Before | Weak Foot, Skill Moves & Injury Ratings After    |                                 
+---------------------------:|:-----------------------------------
+![wr-sm-ir-before](https://user-images.githubusercontent.com/119185772/230710227-0515bdd2-e541-43a3-ab11-930eef9d772b.png) | ![wr-sm-ir-after](https://user-images.githubusercontent.com/119185772/230710235-2a90298e-dd2f-4650-a86f-452fcd541c91.png)
+
