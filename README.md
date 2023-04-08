@@ -83,3 +83,26 @@ The **Weight** column contains data in two units (kg & lbs). In order to make th
 |Cleaning the weight column|                                 
 |---------------------------:|
 |![weight-cleaning](https://user-images.githubusercontent.com/119185772/230706108-adcf2c35-1746-446a-bd48-efc50b6c8d1b.png)|
+
+The **Height** column contains data in two formats (170cm and 5'7") which makes it inconsistent. I cleaned this column by using the following steps:
+1. I added a **multiplier** column to convert inches to cm by mulplying the column by 2.54.
+
+![multiplier2 54](https://user-images.githubusercontent.com/119185772/230707622-fc59b485-60b2-4500-b19c-d664b5f892cf.png)
+
+2. I splitted the column on **'** delimeter to obtain the feet and inches in different columns; **Height.1** and **Height.2**.
+3. I replaced all null values in **Height.2** with **0** because I will perform addition with this column later. I renamed this column to **addition**.
+4. I created a multiplier column to convert all values in feet in **Height.1** to inches as shown below.
+
+![multiplier12](https://user-images.githubusercontent.com/119185772/230707631-53022427-3531-4abf-bc73-392109cc5855.png)
+
+5. I replaced **cm** in **Height.1** with space and converted the data type to numeric.
+
+![replaced-cm](https://user-images.githubusercontent.com/119185772/230707647-60de5dcc-d987-4f31-b0c2-6361cc18918e.png)
+
+6. I then multiplied the **Height.1** with **multiplyby12**, then added the **addition** column.
+7. Lastly I multiplied the **Height.1** with **multiplier** to obtain the final value in **cm** and renamed the column to **Height(cm)**.
+
+|Weight & Height Before | Weight & Height After    |                                 
+---------------------------:|:-----------------------------------
+![weight-height-before](https://user-images.githubusercontent.com/119185772/230707696-51c01c53-0b4d-4473-9b0c-d067a379e963.png) | ![weight-height-after](https://user-images.githubusercontent.com/119185772/230707706-2849b5ff-cda3-47ad-8e3d-986591efcce2.png)
+
